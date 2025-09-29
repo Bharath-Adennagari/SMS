@@ -41,7 +41,7 @@ tk = pickle.load(open("vectorizer.pkl", 'rb'))
 model = pickle.load(open("model.pkl", 'rb'))
 
 st.title("SMS Spam Detection Model")
-st.write("*Made by Adennagari Bharath*")
+st.write("*Made by Adennagari Bharathv*")
     
 
 input_sms = st.text_input("Enter the SMS")
@@ -59,4 +59,5 @@ if st.button('Predict'):
         st.header("Spam")
     else:
         st.header("Not Spam")
+
 
